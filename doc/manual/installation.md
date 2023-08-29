@@ -72,7 +72,7 @@ Remove the old Ruby versions if present:
 Download Ruby and compile it:
 
     mkdir /tmp/ruby && cd /tmp/ruby
-    curl -L --progress-bar https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.bz2 | tar xj
+    curl -L --progress-bar https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.gz | tar xz
     cd ruby-3.2.2
     ./configure --disable-install-rdoc
     make -j`nproc`
